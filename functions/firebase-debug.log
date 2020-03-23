@@ -1,0 +1,27 @@
+[debug] [2020-03-23T00:54:49.943Z] ----------------------------------------------------------------------
+[debug] [2020-03-23T00:54:49.945Z] Command:       /Users/uchibayashitakaaki/.anyenv/envs/nodenv/versions/12.7.0/bin/node /Users/uchibayashitakaaki/.anyenv/envs/nodenv/versions/12.7.0/bin/firebase deploy
+[debug] [2020-03-23T00:54:49.945Z] CLI Version:   7.15.1
+[debug] [2020-03-23T00:54:49.945Z] Platform:      darwin
+[debug] [2020-03-23T00:54:49.945Z] Node Version:  v12.7.0
+[debug] [2020-03-23T00:54:49.946Z] Time:          Mon Mar 23 2020 09:54:49 GMT+0900 (GMT+09:00)
+[debug] [2020-03-23T00:54:49.947Z] ----------------------------------------------------------------------
+[debug] [2020-03-23T00:54:49.947Z] 
+[debug] [2020-03-23T00:54:49.956Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-23T00:54:49.956Z] > authorizing via signed-in user
+[debug] [2020-03-23T00:54:49.956Z] [iam] checking project bakusoku-c5203 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2020-03-23T00:54:49.958Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-23T00:54:49.958Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-23T00:54:50.143Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-23T00:54:50.162Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bakusoku-c5203:testIamPermissions  
+
+[debug] [2020-03-23T00:54:50.499Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-23T00:54:50.500Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/bakusoku-c5203  
+ 
+[debug] [2020-03-23T00:54:50.986Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'bakusoku-c5203'...
+[info] 
+[info] i  deploying storage, firestore, functions, hosting
+[debug] [2020-03-23T00:54:52.477Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/bakusoku-c5203  
+ 
